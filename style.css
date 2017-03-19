@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+p {
+
+}
+span {
+    color: red;
+    font-size: 13pt;
+    width: 200px;
+    box-sizing: border-box;
+    display: inline-block;
+    border: 2px solid #000;
+    background-color: cornsilk;
+    padding: 7px;
+    transition: transform 0.5s linear;
+
+}
+
+span.active {
+    color: blue;
+    background-color: chocolate;
+    border: 3px dotted #666;
+    transform: translateX(100vw) translateX(-100%);
+}
